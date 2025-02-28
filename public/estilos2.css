@@ -1,0 +1,573 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body{
+    text-align: center;
+    display: grid;
+    background: linear-gradient(#000049, #393997);
+  
+    
+}
+
+.abrir-menu{
+    display: block;
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenido{
+    height: 80vh !important;
+    background: url(fotoMujerConduciendo.jpg) no-repeat center;
+    background-size: 148%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #000049;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+       
+}
+
+
+.navbar{
+    position: absolute;
+    flex-direction: column;
+    align-items: end;
+    right: 0%;
+    top: 50%;
+    background-color: #000049;
+    display: flex;
+    gap: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    
+    
+  
+    
+}
+.navbar.visible{
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar button{
+    display: block;
+    cursor: pointer;
+}
+
+.head button{
+    display: block;
+    cursor: pointer;
+}
+
+.logo{
+    margin-left: 5px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: greenyellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    flex-direction: column;
+    
+}
+
+.navbar a:hover{
+    background-color: greenyellow;
+    color: #000049;
+    transition: ease-in 0.2s;
+    border-radius: 4px;
+    font-size: 1.3em;
+}
+
+
+
+.titulo{
+    margin-bottom: 40px;
+    font-size: 60%;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 5%;
+}
+
+
+/*PAGINA PPAL*/
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 20px;
+    border: 2px solid greenyellow;
+    text-decoration: none;
+    color: #000049;
+    background-color: greenyellow;
+    border-radius: 50px;
+    
+    
+    
+}
+
+.btn:hover{
+    background: none;
+    transition: ease-in 0.2s;
+    color: greenyellow;
+    
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+    font-size: 70%;
+}
+
+
+
+.textoppal{
+    color: greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+
+}
+
+.logo{
+    height: 9vh !important;
+}
+
+.cajaTitulo{
+    font-size: 50px;
+    margin-right: auto;
+}
+.cuadroQuenesSomos{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 25%;
+    text-align: center;
+
+
+}
+
+
+
+.permisos{
+    text-align: center;
+    border: solid greenyellow;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+    padding: 1% 3% 5% 3%;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+.permisos h1{
+    font-size: 150%;
+    padding-bottom: 15%;
+    text-align: center;
+}
+
+.permisos ul li{
+    list-style: none;
+}
+.cajaTitulo{
+    padding-top: 1%;
+}
+
+.textoQuienesSomos{
+    font-size: 70%;
+    text-align: center;
+    
+}
+.cajaDescripcion p{
+    white-space: normal;
+    text-align: center;
+    padding-bottom: 1%;
+    font-size: 70%;
+    
+}
+
+.nosAdaptamos{
+    font-size: 230%;
+    margin-top: 50px;
+}
+
+.adaptacionHorario p{
+    margin-top: 10%;
+    font-size: 90%;
+}
+
+.bodyppal{
+    background: linear-gradient(#000049, #393997);
+    color: white;
+}
+
+.container {
+    background: linear-gradient(#000049, #393997);
+    background-attachment: fixed;
+    display: grid;
+}
+
+
+
+
+.cuerpoSaberMas{
+    background: url(imagenQuesito.jpeg) no-repeat center;
+    height: 125vh;
+    background-size: cover;
+    margin-bottom: 3%;
+    
+    
+    
+}
+
+.listaContacto{
+    padding-left: 3%;
+    list-style-type: none;
+     
+}
+
+hr{
+    border: 1px solid greenyellow;
+    margin: 3% auto;
+    width: 50%;
+    
+}
+
+
+
+.redesSociales{
+    padding: 3%
+}
+
+.listaAuto{
+    padding-left: 3%;
+    list-style: none;
+    font-size: 130%;
+}
+
+.visitanos{
+    margin-top: 5%;
+}
+
+.visitanos h1{
+    font-size: 330%;
+}
+
+.piePagina{
+   
+    color: white;
+    background: url(cochesAutoescuela.png) center;
+    background-size: 100%;
+    padding-top: 5%;
+    padding-left: 5%;   
+    gap: 20px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+
+
+
+.tituloPiePagina{
+    text-decoration: underline;
+    font-size: 130%;
+    margin-right: 0%;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.visitamos p{
+    font-size: 170em;
+}
+
+
+
+
+.listaDatosPie{
+    font-size: 110%;
+    padding-bottom: 10%;
+    list-style: none;
+}
+
+.columna3 ul li{
+    padding-left: 10%;
+}
+
+.columna3{
+    padding-right: 2%;
+}
+
+.reseñas h1{
+    font-size: 150%;
+}
+ 
+/* PERMISOS */
+
+.permisoB{
+    margin-top: 30%;
+    padding-left: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    
+}
+.permisoB h2{
+    font-size: 230%;
+    color: greenyellow;
+
+}
+
+.permisoB p{
+    color: white;
+    text-align: left;
+    text-align: center;
+    font-size: 100%;
+}
+
+.pruebas{
+    border: solid greenyellow;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 2%;
+   
+}
+
+.pruebas h2{
+    font-size: 150%;
+    color: greenyellow;
+    padding-top: 2%;
+   
+}
+
+.pruebas ol{
+    text-align: left;
+    color: white;
+    padding-left: 7%;
+    padding-bottom: 1%;
+    list-style-type: none;
+}
+
+.pruebas ol li{
+    padding-bottom: 1%;
+}
+
+.tituloA2{
+    margin-top: 3%;
+    font-size: 250%;
+    color: greenyellow;
+}
+
+/* PAGINA DE PERMISOS */
+.bodyPermisos{
+    background: linear-gradient(#000049, #393997);
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+.generalPermisos{
+    background: url(cochesMoto.png) no-repeat center;
+    margin-top: 5%;
+    background-attachment: fixed ;
+    background-size: cover ;
+
+}
+
+.generalPermisos h1{
+    padding-top: 9%;
+    font-size: 250%;
+    color: greenyellow;
+    margin-bottom: 7%;
+    text-transform: uppercase;
+    margin-top: 10%;
+
+}
+
+.generalPermisos h2{
+    color: white;
+    font-size: 200%;
+    text-align: center;   
+}
+
+.cuerpoPermisos{
+    margin-bottom: 10%;
+}
+
+.permisospermisoB{
+    border: solid greenyellow;
+    border-radius: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 1%;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+
+
+}
+
+.permisospermisoA2{
+    border: solid greenyellow;
+    border-radius: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 1%;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-top: 5%;
+
+
+    
+}
+.permisospermisoB a{
+    display: inline-block;
+    margin-top: 0%;
+    margin-bottom: 4%;
+    padding: 1% 3%;
+    border: 2px solid greenyellow;
+    text-decoration: none;
+    color: #000049;
+    background-color: greenyellow;
+    border-radius: 50px;
+    font-size: 80%;
+}
+
+.permisospermisoB a:hover{
+    background: none;
+    transition: ease-in 0.2s;
+    color: greenyellow;
+    
+}
+
+.permisospermisoB p{
+    color: white;
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    font-size: 100%;
+}
+
+.permisospermisoA2 a{
+    display: inline-block;
+    margin-top: 0%;
+    margin-bottom: 4%;
+    padding: 1% 3%;
+    border: 2px solid greenyellow;
+    text-decoration: none;
+    color: #000049;
+    background-color: greenyellow;
+    border-radius: 50px;
+    font-size: 80%;
+}
+
+.permisospermisoA2 a:hover{
+    background: none;
+    transition: ease-in 0.2s;
+    color: greenyellow;
+    
+}
+
+.permisospermisoA2 p{
+    color: white;
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    font-size: 100%;
+}
+
+.abrir-menu {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: greenyellow;
+    margin-right: 2%;
+}
+
+/* Contenedor del menú */
+.navbar {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.navbar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar a:last-child {
+    border-bottom: none;
+}
+
+/* Mostrar menú al hacer hover sobre el botón */
+.head:hover .navbar {
+    display: flex;
+}
+
