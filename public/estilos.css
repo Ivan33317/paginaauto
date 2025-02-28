@@ -275,6 +275,7 @@ hr{
     font-size: 330%;
 }
 
+
 .piePagina{
    
     color: white;
@@ -355,6 +356,26 @@ hr{
     text-align: left;
     
 }
+.lpermisoB{
+    text-decoration: none;
+    color: white;
+    
+}
+.lpermisoA2{
+    text-decoration: none;
+    color: white;
+    
+}
+.lpermisoA2:hover{
+    transition: ease-in 0.2s;
+    color: greenyellow;
+    
+}
+.lpermisoB:hover{
+    transition: ease-in 0.2s;
+    color: greenyellow;
+    
+}
 
 .pruebas{
     border: solid greenyellow;
@@ -400,11 +421,7 @@ hr{
 
 
 
-.imagenPermiso img{
-    
-    
-    
-}
+
 
 .generalPermisos{
     background: url(cochesMoto.png) no-repeat center;
